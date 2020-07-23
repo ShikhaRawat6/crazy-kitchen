@@ -1,0 +1,1084 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     }
+html,
+body {
+    background-color: #fff; 
+    color: #555;
+     font-family: 'Lato', 'Arial', sans-serif;
+      font-weight: 300; 
+      font-size: 20px;
+       text-rendering: optimizeLegibility;
+        overflow-x: hidden; 
+       } 
+.clearfix {
+        zoom: 1;
+    } 
+.clearfix:after {
+       content: '.'; 
+       clear: both;
+       display: block;
+       height: 0; 
+      visibility: hidden;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto; 
+}
+
+section {
+    padding: 80px 0; 
+}
+
+.box {
+    padding: 1%;
+}
+ /* ----- HEADINGS ----- */ 
+h1,
+h2,
+h3 {
+    font-weight: 300; 
+    text-transform: uppercase; 
+    }
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff; 
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px; 
+} 
+h2 {
+    font-size: 180%;
+    word-spacing: 2px; 
+    text-align: center; 
+    margin-bottom: 30px; 
+    letter-spacing: 1px; 
+}
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px; 
+} 
+h2: after {
+    display: block; 
+    height: 2px; 
+    background-color: #e67e22; 
+    content: " "; 
+    width: 100px; 
+    margin: 0 auto; 
+    margin-top: 30px;
+}
+/*---------------------BUTTONS-------------------*/ 
+.button {
+    display: inline-block; 
+    padding: 10px 30px; 
+    text-decoration:none; 
+    font-weight: 300; 
+    text-decoration: none; 
+    color: #fff; 
+    border-radius: 200px; 
+    border-bottom: hidden;
+} 
+.button-b1{
+    border-radius: 200px; 
+    padding: 4px 30px; 
+    background-color: #e67e22; 
+    color: #fff; 
+    border-bottom: 2px solid transparent; 
+}
+.button-b2{
+    border-radius: 200px; 
+    padding: 4px 30px; 
+    background-color: #e67e22; 
+    border: color: #e67e22; 
+} 
+
+/* ----- PARAGRAPHS ----- */ 
+.logo-copy {
+        line-height: 145%; 
+        width: 70%; 
+        margin-left: 15%;
+}
+.box p {
+    font-size: 90%; 
+    line-height: 145%; 
+}
+header {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    background-attachment: fixed; 
+} 
+.hero-box {
+    position: absolute; 
+    width: 1140px; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+} 
+.logo,
+.logo-black {
+    height: 100px; 
+    width: auto;
+    float: right;
+    margin-top: 5px; 
+}
+
+.logo-black{
+display: none;
+} 
+/* Main navi */
+.main-nav {
+    float: left; 
+    list-style: none;
+    margin-top: 55px; 
+} 
+.main-nav li {
+    display: inline-block; 
+    margin-left: 40px; 
+}
+.main-nav li a{
+    padding: 8px 0; 
+    color: #555; 
+    text-decoration: none; 
+    text-transform: uppercase;
+        font-size: 90%; 
+        border-bottom: 2px solid transparent; 
+        transition: border-bottom 0.2s; 
+        } 
+
+/* black logo*/
+.sticky .logo{
+    display: none;
+}
+
+.sticky .logo-black{
+    display: block;
+}
+
+/* Sticky navigation*/
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+     
+}
+
+/* FEATURES */ 
+.section-features .long-copy {
+    margin-bottom: 30px; } 
+/* MEALS */ 
+.section-meals {
+    padding: 0; 
+    } 
+.meals-show {
+    list-style: none; 
+    width: 100%; 
+} 
+.meals-show li {
+        display: block; 
+        float: left; 
+        width: 25%; 
+        } 
+.meal-photo {
+            width: 100%;
+             margin: 0; 
+             overflow: hidden; 
+             background-color: #000;
+              } 
+.meal-photo img {
+            opacity: 0.7; 
+            width: 100%;
+             height: auto;
+           transform: scale(1.15); opacity 0.5s;
+            transition: transform 0.5s, opacity 0.5s; } 
+            .meal-photo img:hover {
+                opacity: 1; 
+                transform: scale(1.03); } 
+/* HOW IT WORKS SECTION */ 
+.section-steps {
+    background-color: #f4f4f4; 
+} 
+.steps-box {margin-top: 30px; 
+    } 
+.steps-box: first-child {
+        text-align: right;
+         padding-right: 3%;
+          } 
+.steps-box: last-child {
+            text-align: left;
+             padding-left: 3%;
+             margin-top: 70px;
+              } 
+.app-screen {
+        width: 40%; 
+    } 
+.works-steps {
+        margin-bottom: 50px;
+         } 
+.works-steps: last-of-type {
+    margin-bottom: 80px; 
+} 
+
+.works-steps div {
+    color: #e67e22;
+    font-size: 150%;
+    height: 54px; 
+    width: 54px; 
+    border: 2px solid #e67e22;
+    border-radius: 50%; 
+    display: inline-block; 
+    text-align: center; 
+    margin-right: 25px; 
+    float: left;
+    padding: 5px; 
+}
+ /* CITIES */
+.box img {
+         width: 100%;
+         height: auto;
+         margin-bottom: 15px; 
+} 
+.city-feature {
+    margin-bottom: 5px;
+     } 
+.section {
+    clear: both; 
+    padding: 0px; 
+    margin: 0px; 
+} 
+.row {
+    zoom: 1;
+     } 
+.row: before, 
+.row: after {
+    content:"";
+     display:table; 
+     } 
+.row:after {
+    clear:both; } 
+
+.col {
+    display: block;
+    float:left;
+    margin: 1% 0 1% 1%;
+}
+
+.col: first-child { 
+margin-left: 0; 
+}
+
+@media only screen and (max-width: 480px) {
+
+    .col { 
+        margin: 1% 0 1% 0%;
+        margin: 0;
+    }
+}
+
+/*  GRID OF TWO   ============================================================================= */
+.span-2-of-2 {  
+width: 100%;
+}
+
+.span-1-of-2 {
+    width: 49.2%;
+}
+
+@media only screen and (max-width: 480px) 
+{
+    
+.span-2-of-2 {  
+    width: 100%; 
+    }
+    
+.span-1-of-2 {
+width: 100%; 
+    }
+}
+/*  GRID OF THREE   ============================================================================= */
+.span-3-of-3 {
+    width: 100%; 
+}
+
+.span-2-of-3 {
+    width: 66.13%; 
+}
+
+.span-1-of-3 {
+    width: 32.26%; 
+}
+
+@media only screen and (max-width: 480px) {
+    .span-3-of-3 {
+        width: 100%; 
+    }
+    .span-2-of-3 {
+        width: 100%; 
+    }
+    .span-1-of-3 {
+        width: 100%;
+    }
+}
+/*
+/*  GRID OF FOUR   ============================================================================= */
+.span-4-of-4 {
+    width: 100%; 
+}
+
+.span-3-of-4 {
+    width: 74.6%; 
+}
+
+.span-2-of-4 {
+    width: 49.2%; 
+}
+
+.span-1-of-4 {
+    width: 23.8%; 
+}
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    .span-4-of-4 {
+        width: 100%; 
+    }
+    .span-3-of-4 {
+        width: 100%; 
+    }
+    .span-2-of-4 {
+        width: 100%; 
+    }
+    .span-1-of-4 {
+        width: 100%; 
+    }
+}
+
+
+/*  GRID OF FOUR   ============================================================================= */
+
+    
+.span-4-of-4 {
+    width: 100%; 
+}
+
+.span-3-of-4 {
+    width: 74.6%; 
+}
+
+.span-2-of-4 {
+    width: 49.2%; 
+}
+
+.span-1-of-4 {
+    width: 23.8%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    .span-4-of-4 {
+        width: 100%; 
+    }
+    .span-3-of-4 {
+        width: 100%; 
+    }
+    .span-2-of-4 {
+        width: 100%; 
+    }
+    .span-1-of-4 {
+        width: 100%; 
+    }
+}
+
+
+/*  GRID OF FIVE   ============================================================================= */
+
+    
+.span-5-of-5 {
+    width: 100%;
+}
+
+.span-4-of-5 {
+    width: 79.68%; 
+
+}
+
+
+.span-3-of-5 {
+  
+    width: 59.36%;
+ 
+}
+
+
+.span-2-of-5 
+{
+
+    width: 39.04%;
+
+}
+
+.span-1-of-5 {
+
+    width: 18.72%;
+
+}
+
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+
+@media only screen and (max-width: 480px) {
+
+    .span-5-of-5 {
+        
+width: 100%; 
+    
+}
+    
+.span-4-of-5 {
+        
+width: 100%; 
+    
+}
+    
+.span-3-of-5 {
+    
+    width: 100%; 
+
+    }
+    
+.span-2-of-5 {
+        
+width: 100%; 
+    
+}
+.span-1-of-5 {
+    
+    width: 100%;
+ 
+    }
+
+}
+
+
+
+/*  GRID OF SIX   ============================================================================= */
+
+.span-6-of-6 {
+width: 100%;
+}
+
+.span-5-of-6 {
+    width: 83.06%;
+}
+
+.span-4-of-6 {
+width: 66.13%;
+}
+
+.span-3-of-6 {
+    width: 49.2%;
+}
+
+.span-2-of-6 {
+    width: 32.26%;
+}
+
+.span-1-of-6 {
+    width: 15.33%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+
+@media only screen and (max-width: 480px) {
+
+    .span-6-of-6 {
+        width: 100%; 
+    }
+    
+.span-5-of-6 {
+        width: 100%; 
+    }
+    
+.span-4-of-6 {
+        width: 100%; 
+    }
+
+    .span-3-of-6 {
+        width: 100%; 
+    }
+
+    .span-2-of-6 {
+        width: 100%; 
+    }
+    
+.span-1-of-6 {
+        width: 100%; 
+    }
+}
+
+
+
+
+/*  GRID OF SEVEN   ============================================================================= */
+
+
+
+.span-7-of-7 {
+    width: 100%;
+}
+
+.span-6-of-7 {
+    width: 85.48%;
+}
+
+
+.span-5-of-7 {
+    width: 70.97%;
+}
+
+
+.span-4-of-7 {
+    width: 56.45%;
+}
+
+
+.span-3-of-7 {
+    width: 41.94%;
+}
+
+
+.span-2-of-7 {
+    width: 27.42%;
+}
+
+
+.span-1-of-7 {
+    width: 12.91%;
+}
+
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+
+@media only screen and (max-width: 480px) {
+
+    .span-7-of-7 {
+        
+width: 100%; 
+    
+}
+    
+.span-6-of-7 {
+        width: 100%; 
+
+    }
+
+    .span-5-of-7 {
+    
+    width: 100%;
+ 
+    }
+    
+.span-4-of-7 {
+        
+width: 100%; 
+
+    }
+    
+.span-3-of-7 {
+        
+width: 100%; 
+    
+}
+    
+.span-2-of-7 {
+    
+    width: 100%;
+ 
+    }
+    
+.span-1-of-7 {
+
+        width: 100%; 
+    
+}
+
+
+}
+
+
+
+/*  GRID OF EIGHT   ============================================================================= */
+
+    
+.span-8-of-8 {
+    width: 100%;
+}
+
+.span-7-of-8 {
+    width: 87.3%; 
+}
+
+.span-6-of-8 {
+    width: 74.6%; 
+}
+
+.span-5-of-8 {
+    width: 61.9%; 
+}
+
+.span-4-of-8 {
+    width: 49.2%; 
+}
+
+.span-3-of-8 {
+    width: 36.5%;
+}
+
+.span-2-of-8 {
+    width: 23.8%; 
+}
+
+.span-1-of-8 {
+    width: 11.1%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    .span-8-of-8 {
+        width: 100%; 
+    }
+    .span-7-of-8 {
+        width: 100%; 
+    }
+    .span-6-of-8 {
+        width: 100%; 
+    }
+    .span-5-of-8 {
+        width: 100%; 
+    }
+    .span-4-of-8 {
+        width: 100%; 
+    }
+    .span-3-of-8 {
+        width: 100%; 
+    }
+    .span-2-of-8 {
+        width: 100%; 
+    }
+    .span-1-of-8 {
+        width: 100%; 
+    }
+}
+
+
+/*  GRID OF NINE   ============================================================================= */
+
+
+.span-9-of-9 {
+    width: 100%;
+}
+
+.span-8-of-9 {
+    width: 88.71%;
+}
+
+.span-7-of-9 {
+    width: 77.42%; 
+}
+
+.span-6-of-9 {
+    width: 66.13%; 
+}
+
+.span-5-of-9 {
+    width: 54.84%; 
+}
+
+.span-4-of-9 {
+    width: 43.55%; 
+}
+
+
+.span-3-of-9 {
+    width: 32.26%;
+}
+
+
+.span-2-of-9 {
+    width: 20.97%; 
+}
+
+
+.span-1-of-9 {
+    width: 9.68%; 
+}
+
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+
+@media only screen and (max-width: 480px) {
+
+    .span-9-of-9 {
+        width: 100%; 
+    }
+    
+.span-8-of-9 {
+        width: 100%; 
+    }
+    
+.span-7-of-9 {
+        width: 100%; 
+    }
+    
+.span-6-of-9 {
+        width: 100%; 
+    }
+    
+.span-5-of-9 {
+        width: 100%; 
+    }
+    
+.span-4-of-9 {
+        width: 100%; 
+    }
+    
+.span-3-of-9 {
+        width: 100%; 
+    }
+    
+.span-2-of-9 {
+        width: 100%; 
+    }
+    
+.span-1-of-9 {
+        width: 100%; 
+    }
+}
+
+
+/* 
+ GRID OF TEN   ============================================================================= */
+
+
+.span-10-of-10 {
+    width: 100%;
+}
+
+.span-9-of-10 {
+    width: 89.84%;
+}
+
+.span-8-of-10 {
+    width: 79.68%;
+}
+
+.span-7-of-10 {
+    width: 69.52%; 
+}
+
+.span-6-of-10 {
+    width: 59.36%; 
+}
+
+.span-5-of-10 {
+    width: 49.2%; 
+}
+
+.span-4-of-10 {
+    width: 39.04%; 
+}
+
+.span-3-of-10 {
+    width: 28.88%;
+}
+
+.span-2-of-10 {
+    width: 18.72%; 
+}
+
+.span-1-of-10 {
+    width: 8.56%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    .span-10-of-10 {
+        width: 100%; 
+    }
+    .span-9-of-10 {
+        width: 100%; 
+    }
+    .span-8-of-10 {
+        width: 100%; 
+    }
+    .span-7-of-10 {
+        width: 100%; 
+    }
+    .span-6-of-10 {
+        width: 100%; 
+    }
+    .span-5-of-10 {
+        width: 100%; 
+    }
+    .span-4-of-10 {
+        width: 100%; 
+    }
+    .span-3-of-10 {
+        width: 100%; 
+    }
+    .span-2-of-10 {
+        width: 100%; 
+    }
+    .span-1-of-10 {
+        width: 100%; 
+    }
+}
+
+
+/*  GRID OF ELEVEN   ============================================================================= */
+
+.span-11-of-11 {
+    width: 100%;
+
+}
+
+
+.span-10-of-11 {
+    
+width: 90.76%;
+}
+
+
+.span-9-of-11 {
+
+    width: 81.52%;
+}
+
+
+.span-8-of-11 {
+    width: 72.29%;
+}
+
+
+.span-7-of-11 {
+    width: 63.05%; 
+}
+
+
+.span-6-of-11 {
+    width: 53.81%; 
+}
+
+
+.span-5-of-11 {
+    width: 44.58%; 
+}
+
+
+.span-4-of-11 {
+    width: 35.34%; 
+}
+
+
+.span-3-of-11 {
+    width: 26.1%;
+}
+
+.span-2-of-11 {
+    width: 16.87%; 
+}
+
+.span-1-of-11 {
+    width: 7.63%; 
+}
+
+
+
+/*GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+
+@media only screen and (max-width: 480px) {
+    
+.span-11-of-11 {
+        width: 100%; 
+    }
+    
+.span-10-of-11 {
+        width: 100%; 
+    }
+    
+.span-9-of-11 {
+        width: 100%; 
+    }
+    
+.span-8-of-11 {
+        width: 100%; 
+    }
+    
+.span-7-of-11 {
+        width: 100%; 
+    }
+    
+.span-6-of-11 {
+        width: 100%; 
+    }
+    
+.span-5-of-11 {
+        width: 100%; 
+    }
+    
+.span-4-of-11 {
+        width: 100%; 
+    }
+    
+.span-3-of-11 {
+        width: 100%; 
+    }
+    
+.span-2-of-11 {
+        width: 100%; 
+    }
+    
+.span-1-of-11 {
+        width: 100%; 
+    }
+}
+
+
+
+/*  GRID OF TWELVE   ============================================================================= */
+
+
+.span-12-of-12 {
+    width: 100%;
+}
+
+
+.span-11-of-12 {
+    width: 91.53%;
+}
+
+
+.span-10-of-12 {
+    width: 83.06%;
+}
+
+
+.span-9-of-12 {
+    width: 74.6%;
+}
+
+.span-8-of-12 {
+    width: 66.13%;
+}
+
+
+.span-7-of-12 {
+    width: 57.66%; 
+}
+
+
+.span-6-of-12 {
+    width: 49.2%; 
+}
+
+.span-5-of-12 {
+    width: 40.73%; 
+}
+
+
+.span-4-of-12 {
+    width: 32.26%; 
+}
+
+
+.span-3-of-12 {
+    width: 23.8%;
+}
+
+.span-2-of-12 {
+    width: 15.33%; 
+}
+
+
+.span-1-of-12 {
+    width: 6.86%; 
+}
+
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    
+.span-12-of-12 {
+        width: 100%; 
+    }
+
+    .span-11-of-12 {
+        width: 100%; 
+    }
+    
+.span-10-of-12 {
+        width: 100%; 
+    }
+    
+.span-9-of-12 {
+        width: 100%; 
+    }
+    
+.span-8-of-12 {
+        width: 100%; 
+    }
+    
+.span-7-of-12 {
+        width: 100%; 
+    }
+    
+
+.span-6-of-12 {
+        width: 100%; 
+    }
+    
+.span-5-of-12 {
+        width: 100%; 
+    }
+    
+.span-4-of-12 {
+        width: 100%; 
+    }
+    
+.span-3-of-12 {
+        width: 100%; 
+    }
+    
+.span-2-of-12 {
+        width: 100%; 
+    }
+    
+.span-1-of-12 {
+        width: 100%; 
+    }
+
+}
